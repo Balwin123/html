@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    border: solid;
+    padding: 10px;
+}
+#header{
+    height: 100px;
+    background: #E9C46A;
+    padding: 10px;
+}
+#logo{
+    width: 150px;
+    height: 100px;
+    background: #C70039;
+}
+#navbar{
+    height: 50px;
+    background: #066976;
+    margin-top: 10px;
+}
+#container{
+    border: solid red;
+    margin-top: 10px;
+}
+#pannel-left{
+    width: 25%;
+    height: 600px;
+    background: #D8E0BB;
+    float: left;
+}
+#section-right{
+    width: 74%;
+    height: 600px;
+    background: #6CDB7E;
+    float: right;
+}
+#container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#footer{
+    height: 100px;
+    background: #2A9D8F;
+    margin-top: 10px;
+}
